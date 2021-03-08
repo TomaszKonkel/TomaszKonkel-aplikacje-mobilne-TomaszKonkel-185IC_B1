@@ -11,7 +11,7 @@ Wykorzystane expo start do uruchamiania
 Aplikacja włączana na telefonie za pomocą aplikacji expo go 
 
 
-1. Instalacja pakietów pip oraz Django
+1. Wygląd aplikacji na telefonie 
 
 ![alt text](https://github.com/TomaszKonkel/TomaszKonkel-aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab1/Lab1.jpg)
 
