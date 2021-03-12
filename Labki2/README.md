@@ -25,8 +25,12 @@ Każdy ekran ma swój plik, który definiuje jego wygląd, do obsługi przenosze
 
 W app.js zawarte jest:
 
-- createAppContainer 
-- createNavigator
-- Platform
-- createBottomTabNavigator
-- createDrawerNavigator
+- createAppContainer - ustawia dostepne ekrany 
+- createNavigator - służy do przechodzenie między ekranami, domyslny ustawiony na "Spread"
+- Platform - dzieki temu możemy ustawić różny wygląd przechodzenia między ekranami w zależności od oprogamowania(iOS, Android)
+- createBottomTabNavigator - tworzy dolny pasek nawigacji 
+- createDrawerNavigator - Tworzy przesuwany z lewej strony liste stron(Przykład ze zdjęcia)
+
+W plikacj Spread, Rest, Hook zawarty mamy wgląd z strony z komponentami View do wyglądu całej strony i Text do wyświetlania treści, navigationOptions ustawia tytuł dla każdej strony 
+
+W pliku styles.js zawarte ustawienia wyglądu dla poszczególnych stron 
