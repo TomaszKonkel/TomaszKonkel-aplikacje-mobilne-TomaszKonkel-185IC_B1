@@ -16,7 +16,7 @@ export default StyleSheet.create({
   flex: 1,
  
  backgroundColor: "green",
-alignItems: "center",
+ alignItems: "center",
 ...Platform.select({
  ios: { paddingTop: 20 },
  android: { paddingTop: 0 }
