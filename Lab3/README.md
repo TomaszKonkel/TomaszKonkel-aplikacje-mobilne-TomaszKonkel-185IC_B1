@@ -18,15 +18,15 @@ Strzałka w prawym górnym rogu pozwala na sortowanie danych(od najmniejszej do 
 
 Pliki do tego ekranu to:
 
--ListContainer - zawarte to co wyświetla się na ekranie(pseudolosoweliczby, wyszukiwarka do filtrowania, przycisk sortujący)
+- ListContainer - zawarte to co wyświetla się na ekranie(pseudolosoweliczby, wyszukiwarka do filtrowania, przycisk sortujący)
 
--List - wykorzystywane przez powyższy plik do pobrania potrzebnych elementów, pobiera ListCotrols
+- List - wykorzystywane przez powyższy plik do pobrania potrzebnych elementów, pobiera ListCotrols
 
--ListControls - pobiera i sprawdza do siebie ListFilter i ListSort przekazując do List
+- ListControls - pobiera i sprawdza do siebie ListFilter i ListSort przekazując do List
 
--ListFilter - działanie filtrowania i przekazywane do ListControls
+- ListFilter - działanie filtrowania i przekazywane do ListControls
 
--ListSort - działanie do sortowanie i przekazywane do ListControls
+- ListSort - działanie do sortowanie i przekazywane do ListControls
 
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab3/1.jpg)
