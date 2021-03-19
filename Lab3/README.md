@@ -31,7 +31,7 @@ Pliki do tego ekranu to:
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab3/1.jpg)
 
-2. Na drugim ekranie mamy wylosowane litery. Zostosowane jest tutaj leniwe ładowanie, które załadowuje tylko wymaganą ilość danych a po wykonaniu wskazanej akcji ładuje je ponownie. W tym przypadku kiedy użytkownik zacznie scrolować ekran zaczną się ładować nowe dane
+2. Na  drugim ekranie mamy wylosowane litery. Zostosowane jest tutaj leniwe ładowanie, które załadowuje tylko wymaganą ilość danych a po wykonaniu wskazanej akcji ładuje je ponownie. W tym przypadku kiedy użytkownik zacznie scrolować ekran zaczną się ładować nowe dane
 
 Pliki do tego ekranu:
 
