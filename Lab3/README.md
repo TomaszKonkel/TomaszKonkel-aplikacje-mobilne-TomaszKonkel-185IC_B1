@@ -16,6 +16,13 @@ Po przed wyszukiwarke można wyszukać konkretną liczbe, albo liczbe która si�
 
 Strzałka w prawym górnym rogu pozwala na sortowanie danych(od najmniejszej do najwiekszej i od największej do najmniejszej)
 
+Pliki do tego ekranu to:
+-ListContainer - zawarte to co wyświetla się na ekranie(pseudolosoweliczby, wyszukiwarka do filtrowania, przycisk sortujący)
+-List - wykorzystywane przez powyższy plik do pobrania potrzebnych elementów, pobiera ListCotrols
+-ListControls - pobiera i sprawdza do siebie ListFilter i ListSort przekazując do List
+-ListFilter - działanie filtrowania i przekazywane do ListControls
+-ListSort - działanie do sortowanie i przekazywane do ListControls
+
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab3/1.jpg)
 
 2. Na drugim ekranie mamy wylosowane litery. Zostosowane jest tutaj leniwe ładowanie, które załadowuje tylko wymaganą ilość danych a po wykonaniu wskazanej akcji ładuje je ponownie. W tym przypadku kiedy użytkownik zacznie scrolować ekran zaczną się ładować nowe dane
