@@ -56,7 +56,7 @@ Na piąty ekran składają się pliki:
 
   - Active.js - Komponent który obsługuje wyświetlanie aktywnego Modala z ActivityIndicator
   - Notification.js - Komponent wyświetlający powiadomienie po wykonaniu akcji 
-  - Activity.js - Połączenie dwóch poprzednich plików i ich komponentów do wyświetlania Modala z powiadomieniem 
+  - Activity.js - Zawiera wyświetlanie się na ekranie połączenia dwóch poprzednich plików i ich komponentów do wyświetlania Modala z powiadomieniem 
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab4/10.jpg)
 
