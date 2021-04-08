@@ -14,14 +14,16 @@ Pierwszy i drugi ekran zawiera wykorzystanie komponentu ScrollView
   - Scroll1.js i Scroll2.js używa komponentu ScrollView w którym zawarte są wyświetlane elementy i umożliwia ich przewijanie zamiast "upychanie" wszystkiego w jednym ekranie
   - Obydwa ekrany inaczej ostylowane 
 
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab5/1.jpg)
- 
- 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab5/2.jpg)
-Na drugi ekran składają się pliki:
+ 
+ 
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab5/1.jpg)
 
- - Select.js - Wygląd i działanie komponentu select którego użyjemy dalej 
- - SelectinOptions.js - Zawiera to co wyświetla się na ekranie, zadeklarowane dwie zmienne do list rozwijanych i inne zmienne do ustawiania stanu jednej listy względem drugiej. Wykorzystanie komponentu Select(poprzedni pliku) który wyświetla listy
+Trzeci ekran zawiera dwa rodzaje "klikania" przycisku 
+  - Button.js zawiera zachowanie danego przycisku w zależności od przypisania mu danej "klasy" i ostylowanie
+  - Touch.js wykorzystuje plik Button.js i przyciską przypisuje zdefiniowane wcześniej "klasy"
+  - TouchableOpacity wciśniety przycisk "wygasa" zmniejszając widoczność jego i jego zawartości
+  - TouchableHighlight wciśnięty przycisk "podświetla się" pozostawiając widoczność przycisku taką samą i jego zawartość
 
 
 
