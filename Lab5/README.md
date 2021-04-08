@@ -2,31 +2,28 @@
 # Autor: Tomasz Konkel grupa: 185IC_B1
 
 
-#Laboratorium numer 4
+#Laboratorium numer 5
 
-Aplikacja posiada 5 ekranów
+Aplikacja posiada 4 ekrany
 
-Każdy ekran prezentuje osobne funkcjonalności react native(Przęgląd TextInput, Select, Switch, DateTimePicker, aktywny modal+ ToastAndroid)
+Każdy ekran prezentuje osobne funkcjonalności react native(ScrollView, TouchableOpacity, TouchableHighlight, Swipeable)
 
 Plik app.js zawiera nawigacje miedzy ekranami 
 
-Na pierwszy ekran składają się pliki:
-
-- Ekran1.js 
-  - Basic Text Input - podstawowe pole do wpisywania 
-  - Password Input - Pole do hasła wpisywana zawartość zastepowana jest kropkami
-  - Return Key   
-  - Placeholder Text - pole tekstowe z wpisanym placeholderem, który wyświetla domyślny tekst jak nic nie jest wpisane
-  - Input Events - pole w którym wpisujemy coś i wyświetla się niżej w changed i submitted
+Pierwszy i drugi ekran zawiera wykorzystanie komponentu ScrollView 
+  - Scroll1.js i Scroll2.js używa komponentu ScrollView w którym zawarte są wyświetlane elementy i umożliwia ich przewijanie zamiast "upychanie" wszystkiego w jednym ekranie
+  - Obydwa ekrany inaczej ostylowane 
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab5/1.jpg)
  
+ 
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab5/2.jpg)
 Na drugi ekran składają się pliki:
 
  - Select.js - Wygląd i działanie komponentu select którego użyjemy dalej 
  - SelectinOptions.js - Zawiera to co wyświetla się na ekranie, zadeklarowane dwie zmienne do list rozwijanych i inne zmienne do ustawiania stanu jednej listy względem drugiej. Wykorzystanie komponentu Select(poprzedni pliku) który wyświetla listy
 
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab5/2.jpg)
+
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab5/3.jpg)
 
