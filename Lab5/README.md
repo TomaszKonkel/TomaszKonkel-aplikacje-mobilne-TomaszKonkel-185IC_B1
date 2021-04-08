@@ -31,31 +31,10 @@ Trzeci ekran zawiera dwa rodzaje "klikania" przycisku
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab5/4.jpg)
 
-Na trzeci ekran składają się pliki:
-  
-  - Switch.js - Wygląd i działanie komponentu Switch 
-  - SwitchTog.js - Użycie komponentu switch do uruchomienia komponentu modal, który zwraca pseudolosową liczbe 
+Czwarty ekran zawiera wykorzystanie komponentu Swipeable 
+  - Swipeable.js zawiera opis działania co się dzieje z przyciskiem po jego przesunięciu(w tym przypadku znika)
+  - Swipe.js wykorzystuje plik Swipeable.js do zaimplementowania komponentów reagujących na ich przesuwanie 
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab5/5.jpg)
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab5/6.jpg)
-
-Na czwarty ekran skałada się plik:
-
- - Data.js - Wyglad i działanie kalendarza z alertem, który zwraca wybrana date i godzine. Do kalendarza użyty komponent DateTimePicker, a do alerta komponent Alert.
-
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab4/7.jpg)
-
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab4/8.jpg)
-
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab4/9.jpg)
-
-Na piąty ekran składają się pliki:
-
-  - Active.js - Komponent który obsługuje wyświetlanie aktywnego Modala z ActivityIndicator
-  - Notification.js - Komponent wyświetlający powiadomienie po wykonaniu akcji 
-  - Activity.js - Zawiera wyświetlanie się na ekranie połączenia dwóch poprzednich plików i ich komponentów do wyświetlania Modala z powiadomieniem 
-
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab4/10.jpg)
-
-![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_B1/blob/master/Lab4/11.jpg)
