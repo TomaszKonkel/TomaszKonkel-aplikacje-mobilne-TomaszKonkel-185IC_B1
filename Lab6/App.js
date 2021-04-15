@@ -10,6 +10,7 @@ import Check from "./Check"
 import AsyncStorageClass from "./AsyncStorageClass"
 import Synk from "./Synk"
 
+
 const { createNavigator } = Platform.select({
  ios: { createNavigator: createBottomTabNavigator },
  android: { createNavigator: createBottomTabNavigator }
