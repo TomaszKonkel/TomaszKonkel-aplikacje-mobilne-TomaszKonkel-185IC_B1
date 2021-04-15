@@ -26,4 +26,34 @@ Drugi ekran posiada zastosowany wcześniej komponent do zdjęcia oraz funkcje zm
 
 ![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/2.jpg)  
  
- 
+ Trzeci ekran zawiera powolne ładowanie zdjęcia oraz renderowania grupowanych ikon
+  - Button.js działanie przycisku ładującego zdjęcie i jego wygląd   
+  - LazyImage.js zawiera działanie ładowania zdjęcia na stronie
+  - Lazy.js korzysta z powyższych plików i zawratych w nich komponentów oraz renderuje ikony zawarte w pliku icon-name.json, które są pogrupowane
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/3.jpg)
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/3.1.jpg)
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/3.2.jpg)
+
+Ekran czwarty zawiera sprawdzanie połączenia z siecią 
+  - Check.js zawiera wykorzystanie biblioteki netinfo do sprawdzania stanu sieci(Połączenie przez wifi wyświetla komunikat "Connect", a brak dostępu do internetu komunikat "Disconnected" )
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/4.jpg)
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/4.1.jpg)
+
+Ekran piąty zawiera zapis danych za pomocą AsyncStorage
+  - ButtonAsync.js  wygląd przycisków i działanie 
+  - AsyncStorageClass.js  wyświetla coś na wzór "formularza" w którym wpisujemy dane i w zależności od wciśnietego przycisku wykonywane są akcje(Add zapisuje dane, a Clear czyści wszystkie podane dane)
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/5.jpg)
+
+Ekran szósty zawiera synchronizacje danych w aplikacji, a konkretnie stanów danego przełącznika 
+  - store.js zajmuje się przechowywaniem stanó przełączników i sprawdzaniem stanu sieci wifi
+  - synk.js korzysta z store.js, ustawione są początkowe stany przełączników jak i informacji o wiadomości o połączeniu. Wszystkie zmiany wykonane w trybie offline wciąż są zapamiętane przy powróceniu do online 
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/6.jpg)
+
+![alt text](https://github.com/TomaszKonkel/aplikacje-mobilne-TomaszKonkel-185IC_A1/blob/master/Lab6/6.1.jpg)
