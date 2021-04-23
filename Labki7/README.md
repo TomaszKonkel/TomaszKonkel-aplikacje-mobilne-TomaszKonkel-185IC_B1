@@ -18,9 +18,12 @@ Projekt stworzony w expo, cała aplikacja opiera się na pliku app.js gdzie opis
  
  Pobrana dodatkowo baza sqlite na komputer i wskazana w aplikacji do wykorzystania
  
+ Wykorzystanie Android studio do zemulowania telefonu
+ 
  Aplikacja dzieli się na kilka funkcji(rejestracja, zobaczenie wszystkich użytkowników, konkretnego użytkownika, aktualizowanie danych i usuwanie )
  
- Odpowiadają za to pliki 
+ Odpowiadają za to pliki:
+ 
     - HomeScreen.js - wygląd głównej strony aplikacji z odnośnikami(przyciskami) do kolejnych
     - RegisterUser.js - wygląd i działanie formularza wpisywania nowego użytkownika
     - ViewAllUser.js - wyświetlanie wszystkich użytkowników w bazie(Na screenie znajduje się jeden wiecej użytkownik, jest to użytkownik stworzony przez baze na komputerze)
